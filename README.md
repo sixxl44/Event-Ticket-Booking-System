@@ -1,6 +1,6 @@
 # Event Ticket Booking System
 
-A Java console application for booking event tickets (movies and sports), built using core data structures — Singly Linked List, Queue, and Stack — to manage customers, ticket requests, and bookings.
+A Java console application for booking event tickets (movies and sports), built using core data structures Singly Linked List, Queue, and Stack to manage customers, ticket requests, and bookings.
 
 ## Overview
 
