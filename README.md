@@ -1,40 +1,57 @@
 # Event Ticket Booking System
 
-A Java console application for booking event tickets (movies and sports), built using core data structures Singly Linked List, Queue, and Stack to manage customers, ticket requests, and bookings.
-
 ## Overview
 
-This project simulates a ticket reservation system where customers can register, browse available movie or sport events, book tickets, and cancel bookings. The system was built as a group project to apply and compare the behavior of different data structures in a real-world scenario.
+The Event Ticket Booking System is a Java-based console application developed as part of the CS212T Data Structures course.
 
-## Data Structures & Design Rationale
+The system is designed to manage customers, ticket requests, and event bookings for different types of events, such as movies and sports. It applies fundamental data structures including Singly Linked List, Queue, and Stack to organize and manage system data efficiently.
 
-| Structure | Used For | Why |
-|---|---|---|
-| **Singly Linked List** | Customer management | Dynamic memory allocation handles a varying number of customers efficiently without wasted space |
-| **Queue (FIFO)** | Ticket request management | Processes ticket requests in the order they arrive — fair, first-come-first-served handling |
-| **Stack (LIFO)** | Booking management | Enables quick access to and reversal of the most recent bookings (e.g., cancellations) |
+## Objectives
+
+- Apply fundamental data structures in a practical Java application.
+- Manage customer information dynamically using a Singly Linked List.
+- Process ticket requests using a Queue.
+- Manage booking activities using a Stack.
+- Support ticket reservation, cancellation, and searching operations.
+- Provide an organized console-based system for managing event bookings.
+
+## Technologies Used
+
+- Java
+- Data Structures
+- Singly Linked List
+- Queue
+- Stack
+- Object-Oriented Programming (OOP)
 
 ## Features
 
-- Add, search, and remove customers
-- Browse available Movie and Sport events
-- Reserve tickets with seat selection and automatic price calculation
-- Cancel a booking or an individual ticket
-- Track booking history per customer
-- View the most frequently booked event
-- Modify or remove customer records
+- Add and manage customer information.
+- Reserve tickets for movie and sports events.
+- Select available seats and generate ticket information.
+- Cancel bookings or individual tickets.
+- Display booking history for a specific customer.
+- Search for bookings by booking ID.
+- Search for tickets by ticket number.
+- View the most booked event.
+- Modify or remove customer information.
+- Manage ticket requests using FIFO Queue operations.
+- Manage booking activities using Stack operations.
 
-## My Contribution
+## My Contributions
 
-This was a 5-member team project. I implemented:
-- **`showCustomers()`** (Singly Linked List) — traverses the customer list and displays all registered customers
-- **`countTicketsByEvent()`** (Queue) — iterates through the ticket queue to count how many tickets are associated with a specific event, without altering the queue's order
+- Implemented the `showCustomers()` method for the Singly Linked List to display stored customer information.
+- Implemented the `countTicketsByEvent()` method for the Queue to count tickets associated with a specific event.
+- Collaborated with the team on the implementation of the Main Class and overall system functionality.
 
-## How to Run
+## Skills Demonstrated
 
-```bash
-javac Main.java
-java Main
-```
-
-Follow the on-screen menu to add customers, book tickets, or view event statistics.
+- Java Programming
+- Data Structures
+- Singly Linked Lists
+- Queue Operations
+- Stack Operations
+- Object-Oriented Programming
+- Algorithmic Thinking
+- Application Logic
+- Team Collaboration
